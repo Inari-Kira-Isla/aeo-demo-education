@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>澳門教育資源中心 — AI 時代的學習指南</title>
+  <meta name="description" content="澳門教育資源中心是全面的教育資訊平台，涵蓋 AI 教育趨勢、澳門教育體系、線上學習平台、STEM 教育、親子教育等，助你在 AI 時代掌握最新學習方向。">
+  <meta name="keywords" content="澳門教育, AI教育, STEM教育, 線上學習, 親子教育, 澳門學校, 編程教學, 教育趨勢, 澳門大學, 幼稚園">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="canonical" href="https://aeo-demo-education.vercel.app/">
+  <link rel="llms-txt" href="https://aeo-demo-education.vercel.app/llms.txt">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="澳門教育資源中心 — AI 時代的學習指南">
+  <meta property="og:description" content="全面的澳門教育資訊平台，涵蓋 AI 教育趨勢、教育體系概覽、線上學習、STEM 教育與親子指南。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aeo-demo-education.vercel.app/">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:site_name" content="澳門教育資源中心">
+
+  <!-- Schema.org EducationalOrganization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "澳門教育資源中心",
+    "alternateName": "Macau Education Resource Center",
+    "description": "澳門教育資源中心是全面的教育資訊平台，涵蓋 AI 教育趨勢、澳門教育體系、線上學習平台推薦、STEM 教育及親子教育指南，為澳門及大灣區家庭提供最新教育資訊。",
+    "url": "https://aeo-demo-education.vercel.app",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Macau",
+      "addressRegion": "Macau SAR",
+      "addressCountry": "MO"
+    },
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 22.1987,
+        "longitude": 113.5439
+      },
+      "geoRadius": "50000"
+    },
+    "sameAs": [
+      "https://github.com/Inari-Kira-Isla/aeo-demo-education"
+    ]
+  }
+  </script>
+
+  <!-- Schema.org FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "澳門的教育制度是怎樣的？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "澳門實行十五年免費教育制度，涵蓋三年幼稚園、六年小學及六年中學教育。學制分為本地制、英制和葡制三種。教育暨青年發展局（DSEDJ）負責監管整個教育體系，確保教育質素。澳門的教育制度重視雙語甚至三語教學，學生通常學習中文、英文和葡文。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "AI 如何改變澳門的教育模式？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "AI 正深刻改變澳門教育的多個面向：智能評估系統能即時分析學生學習進度，自適應學習平台根據學生程度提供個人化內容，AI 輔助教學工具減輕教師行政負擔，虛擬助教提供 24 小時課業支援。澳門大學及澳門理工大學均已開設 AI 相關課程，培養下一代 AI 人才。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "澳門有哪些主要的大學和高等教育機構？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "澳門主要高等教育機構包括：澳門大學（UM，橫琴新校區）、澳門理工大學（MPU）、澳門科技大學（MUST）、澳門城市大學（CityU）、聖若瑟大學（USJ）及澳門旅遊學院（IFTM）。其中澳門大學躋身世界四百強，澳門科技大學在太空科學和中醫藥領域享有國際聲譽。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "適合澳門學生的線上學習平台有哪些？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "澳門學生常用的線上學習平台包括：Coursera 和 edX 提供全球頂尖大學課程；Khan Academy 提供免費數理科基礎教學；Duolingo 適合語言學習；Codecademy 和 freeCodeCamp 適合學習編程。此外，澳門教育暨青年發展局也提供本地化的線上學習資源和教材。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "STEM 教育在澳門的發展現況如何？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "澳門近年大力推動 STEM 教育：政府撥款支持學校建設科學實驗室和創客空間；多所學校引入機器人編程課程；澳門科學館定期舉辦 STEM 工作坊和比賽；澳門大學設有智慧城市物聯網國家重點實驗室。2024 年起，編程思維被納入部分學校的常規課程中。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "家長如何為孩子選擇合適的學校？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "選擇學校時應考慮：教學語言（中文、英文或葡文為主）、學制（本地制或國際制）、學校位置與交通、課外活動與特色課程、師生比例、升學率及大學銜接方案。建議家長參加學校開放日、與在讀家長交流，並考慮孩子的性格和學習風格。教青局網站提供各校基本資料供查閱。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "澳門學生的升學途徑有哪些？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "澳門學生升學途徑多元：可報考本地六所大學；透過「內地高校招收澳門保送生計劃」免試入讀內地 100 多所大學；參加港澳台聯招考試報讀內地大學；以 DSE 成績申請香港大學；以 IB、A-Level 或 SAT 成績申請海外大學。澳門政府提供「大專學生學習用品津貼」及多項獎助學金。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "如何在 AI 時代培養孩子的核心競爭力？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "在 AI 時代，家長應注重培養孩子四項核心能力：批判性思維（學會分析和評估資訊而非死記硬背）、創造力（AI 難以取代的創意和想像力）、溝通協作能力（團隊合作與跨文化交流）、數位素養（理解 AI 工具的原理和限制，善用而非依賴技術）。同時也要重視情商教育和身體鍛煉，培養全面發展的人才。"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ══════════════════════════════════════════════
+       TOKENS
+    ══════════════════════════════════════════════ */
+    :root {
+      --bg:          #080810;
+      --bg-alt:      #0d0d1a;
+      --bg-card:     #111120;
+      --bg-card-h:   #16162a;
+      --primary:     #10b981;
+      --primary-dim: rgba(16,185,129,0.10);
+      --primary-border: rgba(16,185,129,0.25);
+      --primary-glow: rgba(16,185,129,0.06);
+      --accent:      #3b82f6;
+      --accent-dim:  rgba(59,130,246,0.10);
+      --warm:        #f59e0b;
+      --warm-dim:    rgba(245,158,11,0.10);
+      --text:        #e6e6f0;
+      --text-2:      #9090b8;
+      --text-3:      #505070;
+      --border:      rgba(255,255,255,0.07);
+      --r:           16px;
+      --r-sm:        10px;
+    }
+
+    /* ══════════════════════════════════════════════
+       RESET / BASE
+    ══════════════════════════════════════════════ */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.85;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ══════════════════════════════════════════════
+       BACKGROUND FX
+    ══════════════════════════════════════════════ */
+    .bg-ambient {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background:
+        radial-gradient(ellipse 900px 700px at 10% 15%, var(--primary-glow), transparent 60%),
+        radial-gradient(ellipse 700px 900px at 90% 85%, rgba(59,130,246,0.04), transparent 60%);
+    }
+    .bg-grid {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.012) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.012) 1px, transparent 1px);
+      background-size: 72px 72px;
+    }
+
+    /* ══════════════════════════════════════════════
+       LAYOUT
+    ══════════════════════════════════════════════ */
+    .container {
+      max-width: 880px; margin: 0 auto; padding: 0 24px;
+      position: relative; z-index: 1;
+    }
+    section { padding: 80px 0; }
+    .section-alt { background: var(--bg-alt); }
+
+    /* ══════════════════════════════════════════════
+       NAV
+    ══════════════════════════════════════════════ */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(8,8,16,0.85); backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 0;
+    }
+    nav .container {
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-brand {
+      font-weight: 700; font-size: 18px; color: var(--text);
+    }
+    .nav-brand span { color: var(--primary); }
+    .nav-links { display: flex; gap: 24px; list-style: none; }
+    .nav-links a {
+      color: var(--text-2); font-size: 14px; font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--primary); text-decoration: none; }
+
+    /* ══════════════════════════════════════════════
+       HERO
+    ══════════════════════════════════════════════ */
+    .hero {
+      padding: 120px 0 80px;
+      text-align: center;
+    }
+    .hero-eyebrow {
+      font-size: 13px; letter-spacing: 3px; text-transform: uppercase;
+      color: var(--primary); margin-bottom: 20px; font-weight: 500;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 700; line-height: 1.3;
+      margin-bottom: 24px;
+    }
+    .hero h1 .highlight {
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .hero p {
+      font-size: 18px; color: var(--text-2);
+      max-width: 640px; margin: 0 auto 40px;
+      line-height: 1.8;
+    }
+
+    /* ══════════════════════════════════════════════
+       SECTION TITLES
+    ══════════════════════════════════════════════ */
+    .section-eyebrow {
+      font-size: 12px; letter-spacing: 3px; text-transform: uppercase;
+      color: var(--primary); margin-bottom: 12px; font-weight: 500;
+    }
+    h2 {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 700; margin-bottom: 24px;
+      line-height: 1.35;
+    }
+    h3 {
+      font-size: 1.25rem; font-weight: 700;
+      margin: 32px 0 12px; color: var(--text);
+    }
+
+    /* ══════════════════════════════════════════════
+       CONTENT PROSE
+    ══════════════════════════════════════════════ */
+    .prose p {
+      color: var(--text-2); font-size: 16px;
+      margin-bottom: 20px; line-height: 1.85;
+    }
+    .prose ul, .prose ol {
+      color: var(--text-2); font-size: 16px;
+      margin: 0 0 20px 24px; line-height: 1.85;
+    }
+    .prose li { margin-bottom: 8px; }
+    .prose strong { color: var(--text); font-weight: 600; }
+
+    /* ══════════════════════════════════════════════
+       CARDS
+    ══════════════════════════════════════════════ */
+    .card-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px; margin: 32px 0;
+    }
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 28px;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .card:hover {
+      background: var(--bg-card-h);
+      border-color: var(--primary-border);
+    }
+    .card-icon {
+      font-size: 28px; margin-bottom: 16px;
+      display: block;
+    }
+    .card h4 {
+      font-size: 16px; font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .card p {
+      color: var(--text-2); font-size: 14px;
+      line-height: 1.7;
+    }
+
+    /* ══════════════════════════════════════════════
+       HIGHLIGHT BOX
+    ══════════════════════════════════════════════ */
+    .highlight-box {
+      background: var(--primary-dim);
+      border: 1px solid var(--primary-border);
+      border-radius: var(--r);
+      padding: 24px 28px;
+      margin: 28px 0;
+    }
+    .highlight-box p {
+      color: var(--text); margin-bottom: 0;
+    }
+
+    /* ══════════════════════════════════════════════
+       FAQ
+    ══════════════════════════════════════════════ */
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+      padding: 24px 0;
+    }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q {
+      font-size: 17px; font-weight: 700;
+      margin-bottom: 12px; color: var(--text);
+    }
+    .faq-a {
+      color: var(--text-2); font-size: 15px;
+      line-height: 1.85;
+    }
+
+    /* ══════════════════════════════════════════════
+       STAT BAR
+    ══════════════════════════════════════════════ */
+    .stat-bar {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 24px; text-align: center;
+      padding: 48px 0; margin: 40px 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .stat-num {
+      font-size: 2.2rem; font-weight: 700;
+      color: var(--primary);
+    }
+    .stat-label {
+      font-size: 13px; color: var(--text-3);
+      margin-top: 4px;
+    }
+
+    /* ══════════════════════════════════════════════
+       FOOTER
+    ══════════════════════════════════════════════ */
+    footer {
+      background: var(--bg-alt);
+      border-top: 1px solid var(--border);
+      padding: 48px 0;
+      text-align: center;
+    }
+    footer p { color: var(--text-3); font-size: 13px; margin-bottom: 8px; }
+    footer a { color: var(--text-2); }
+
+    /* ══════════════════════════════════════════════
+       RESPONSIVE
+    ══════════════════════════════════════════════ */
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .hero { padding: 80px 0 48px; }
+      section { padding: 56px 0; }
+      .stat-bar { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<div class="bg-ambient"></div>
+<div class="bg-grid"></div>
+
+<!-- ════════════════════════════════════════════
+     NAV
+════════════════════════════════════════════ -->
+<nav>
+  <div class="container">
+    <div class="nav-brand"><span>EDU</span> 澳門教育資源中心</div>
+    <ul class="nav-links">
+      <li><a href="#trends">教育趨勢</a></li>
+      <li><a href="#system">教育體系</a></li>
+      <li><a href="#online">線上學習</a></li>
+      <li><a href="#stem">STEM</a></li>
+      <li><a href="#parenting">親子教育</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-eyebrow">Macau Education Resource Center</div>
+    <h1>澳門教育<span class="highlight">新時代</span></h1>
+    <p>從幼稚園到大學，從傳統課堂到 AI 智能學習，我們為澳門及大灣區家庭提供最全面、最前沿的教育資源指南。在這個科技飛速發展的時代，教育的形式和內涵正在經歷前所未有的變革，而澳門作為中西文化交匯的城市，擁有獨特的多語言教育優勢和豐富的國際教育資源。</p>
+
+    <div class="stat-bar">
+      <div>
+        <div class="stat-num">77</div>
+        <div class="stat-label">所中小學</div>
+      </div>
+      <div>
+        <div class="stat-num">10</div>
+        <div class="stat-label">所高等院校</div>
+      </div>
+      <div>
+        <div class="stat-num">15</div>
+        <div class="stat-label">年免費教育</div>
+      </div>
+      <div>
+        <div class="stat-num">3</div>
+        <div class="stat-label">種教學語言</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     SECTION: AI 教育趨勢
+════════════════════════════════════════════ -->
+<section id="trends" class="section-alt">
+  <div class="container prose">
+    <div class="section-eyebrow">Education Trends</div>
+    <h2>AI 如何改變教育</h2>
+
+    <p>人工智能正以前所未有的速度重塑全球教育格局，而澳門作為粵港澳大灣區的重要城市，正處於這場教育革命的前沿。從智能評估系統到個人化學習路徑，從虛擬實境課堂到 AI 驅動的研究工具，技術創新正在打破傳統教育的邊界，為每一位學習者開啟全新的可能性。在這個變革的時代，理解 AI 對教育的影響不再是選擇題，而是必修課。</p>
+
+    <h3>個人化學習的革命</h3>
+    <p>傳統的「一對多」教學模式正在被 AI 驅動的自適應學習系統所補充和強化。這些系統能夠即時分析每位學生的學習數據，包括答題速度、錯誤模式、注意力持續時間等多維度指標，從而生成專屬的學習計劃。例如，當系統偵測到學生在分數運算方面有困難時，會自動調整練習難度，提供更多基礎練習和視覺化輔助，直到學生真正掌握概念。這種「因材施教」在以往需要一對一家教才能實現，現在透過 AI 技術可以惠及每一位學生。澳門的一些先進學校已經開始試行類似的智能學習平台，學生的學習效率提升了百分之二十到三十。</p>
+
+    <h3>AI 輔助教學工具</h3>
+    <p>對教師而言，AI 不是要取代他們的角色，而是成為強大的教學助手。智能批改系統可以在數秒內完成數百份作業的初步評估，讓教師有更多時間專注於教學設計和學生輔導。AI 驅動的課堂分析工具能夠識別學生的情緒狀態和參與程度，幫助教師及時調整教學節奏。自動生成的教學素材和測驗題庫大幅降低了教師的備課負擔，使他們能將精力投注在真正需要人類智慧的教育環節——啟發思考、培養品格和建立情感連接。</p>
+
+    <h3>虛擬實境與沉浸式學習</h3>
+    <p>結合 AI 與 VR/AR 技術的沉浸式學習體驗正在改變學生對知識的理解方式。想像一堂歷史課，學生可以「走進」大三巴牌坊建成之初的澳門，親眼見證十七世紀中西文化交匯的場景；在生物課上，學生可以「縮小」到細胞內部，觀察蛋白質合成的完整過程。這種具身化的學習經驗比單純閱讀教科書深刻得多，研究顯示沉浸式學習可以將知識留存率提升至百分之七十五以上，遠高於傳統講授式教學的百分之五到十。</p>
+
+    <div class="highlight-box">
+      <p><strong>趨勢洞察：</strong>根據聯合國教科文組織的報告，到 2030 年，全球超過百分之六十的教育機構將在日常教學中使用某種形式的 AI 工具。澳門教育暨青年發展局已將「教育科技發展」列為重點施政方向，未來數年將持續加大投入。</p>
+    </div>
+
+    <h3>澳門的 AI 教育實踐</h3>
+    <p>澳門在推動 AI 教育方面已取得初步成果。澳門大學的智慧城市物聯網國家重點實驗室在教育科技領域開展前沿研究；澳門科技大學開設了人工智能學士課程；多所中學引入了 AI 基礎課程和編程思維訓練。政府的「教育發展基金」也開始資助學校購置智能教學設備和開發本地化的 AI 教育內容。可以預見，未來幾年澳門的教育面貌將因 AI 技術的深入應用而發生顯著改變。</p>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     SECTION: 澳門教育體系
+════════════════════════════════════════════ -->
+<section id="system">
+  <div class="container prose">
+    <div class="section-eyebrow">Education System</div>
+    <h2>澳門教育體系概覽：幼稚園到大學</h2>
+
+    <p>澳門特別行政區擁有獨特而多元的教育制度，融合了中國傳統教育理念與葡萄牙教育遺產，並不斷吸收國際先進教育經驗。理解這套教育體系的結構和特色，是每位澳門家長和教育工作者的重要功課。澳門的教育制度體現了這座城市的文化多樣性，也為學生提供了廣闊的發展空間和多元的升學途徑。</p>
+
+    <h3>學前教育（三至五歲）</h3>
+    <p>澳門的學前教育涵蓋三年幼稚園教育，已納入免費教育範圍。全澳約有七十所幼稚園，提供中文、英文或葡文教學。學前教育著重兒童的全面發展，包括認知能力、社交技巧、體能發展和藝術創作。近年來，越來越多的幼稚園引入遊戲化學習和探究式教學法，讓幼兒在快樂中學習。部分學校還提供蒙特梭利（Montessori）或瑞吉歐（Reggio Emilia）等國際化的教育模式，滿足不同家庭的需求。</p>
+
+    <h3>初等教育（六至十一歲）</h3>
+    <p>小學教育為期六年，是澳門免費教育的重要組成部分。課程涵蓋語文（中文及英文或葡文）、數學、常識、音樂、美術、體育及品德教育。澳門小學教育的一大特色是高度重視語言教學，許多學校實行雙語甚至三語教學，學生從小就培養多語能力。這項優勢在全球化時代尤為珍貴。部分學校還增設了資訊科技課程和創意思維訓練，為學生奠定面向未來的基礎能力。</p>
+
+    <h3>中等教育（十二至十七歲）</h3>
+    <p>中學教育分為初中三年和高中三年。澳門的中學主要有三種學制：本地學制、英制和葡制。本地學制跟隨內地教育框架，英制則以英國 IGCSE 和 A-Level 為藍本，葡制學校採用葡萄牙教育體系。高中階段，學生可選擇文科、理科或商科方向。近年來，不少學校增設了國際文憑（IB）課程，為有志出國留學的學生提供更多選擇。澳門的中學教育不僅注重學術成績，也重視學生的品格培養和社會服務，許多學校要求學生完成一定時數的社區服務作為畢業條件。</p>
+
+    <h3>高等教育</h3>
+    <p>澳門擁有十所高等教育機構，為一個僅有六十八萬人口的城市而言，高等教育資源相當豐富。其中澳門大學是旗艦型研究大學，二零一四年遷入珠海橫琴的新校區，校園面積約為舊校區的二十倍，教學和研究設施達到世界一流水平。澳門科技大學是全澳規模最大的綜合型大學，在太空科學、中醫藥和人工智能領域有突出表現。澳門理工大學在翻譯、設計和公共行政方面享有良好口碑。聖若瑟大學則提供獨特的葡語教育環境。此外，澳門旅遊學院是亞太區頂尖的旅遊和酒店管理教育機構，其課程獲得聯合國世界旅遊組織認證。</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <span class="card-icon">🎓</span>
+        <h4>澳門大學</h4>
+        <p>世界排名前四百，橫琴新校區，綜合研究型大學，重點學科包括微電子、中醫藥和認知科學。</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🔬</span>
+        <h4>澳門科技大學</h4>
+        <p>全澳最大綜合大學，太空科學國家重點實驗室，AI 和大數據學科發展迅速。</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🌐</span>
+        <h4>澳門理工大學</h4>
+        <p>翻譯暨語言學士課程享負盛名，設計、護理和公共行政是重點學科。</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🏨</span>
+        <h4>澳門旅遊學院</h4>
+        <p>亞太區頂尖旅遊教育機構，課程獲聯合國世界旅遊組織認證。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     SECTION: 線上學習平台推薦
+════════════════════════════════════════════ -->
+<section id="online" class="section-alt">
+  <div class="container prose">
+    <div class="section-eyebrow">Online Learning</div>
+    <h2>線上學習平台推薦</h2>
+
+    <p>隨著網際網路技術的普及和新冠疫情後線上教育的蓬勃發展，線上學習已成為澳門學生不可或缺的學習途徑之一。無論是補充課堂知識、備考升學，還是探索興趣愛好，優質的線上學習平台都能提供豐富的資源和靈活的學習體驗。以下是經過我們評估、特別適合澳門學生使用的線上學習平台推薦。</p>
+
+    <h3>全球性綜合學習平台</h3>
+    <p>Coursera 和 edX 是兩個最具影響力的大規模開放線上課程（MOOC）平台，匯集了哈佛大學、麻省理工學院、史丹福大學等全球頂尖院校的課程。學生可以免費旁聽絕大多數課程，若需要獲得認證證書則需付費。這些平台的課程覆蓋計算機科學、商業管理、數據科學、人文藝術等幾乎所有學科領域，非常適合高中生和大學生拓展知識視野。部分課程提供中文字幕，降低了語言門檻。此外，Khan Academy（可汗學院）以其完全免費的數理科基礎教學著稱，從小學算術到大學級別的微積分和物理學，都有系統化的影片教程和練習題，特別適合需要補強基礎知識的學生。</p>
+
+    <h3>語言學習平台</h3>
+    <p>澳門的多語言環境使得語言學習尤為重要。Duolingo 是全球最受歡迎的免費語言學習應用，支援超過四十種語言的教學，其遊戲化的學習方式特別受到年輕人歡迎。對於需要系統性提升英語能力的學生，Cambly 和 italki 提供一對一外教線上課程。學習普通話的學生可以使用 HelloChinese 或 Pleco 等專門針對中文學習者的應用。葡語學習方面，Practice Portuguese 和 PortuguesePod101 提供從初級到進階的完整課程。這些平台的共同優勢是支援手機和平板使用，學生可以利用碎片時間隨時隨地學習。</p>
+
+    <h3>技能導向平台</h3>
+    <p>針對特定技能的學習平台也越來越受到澳門學生的歡迎。Codecademy 和 freeCodeCamp 是學習編程的優秀選擇，前者提供互動式的教學界面，後者則完全免費且有活躍的社群支持。Skillshare 和 Domestika 是創意技能學習的好選擇，涵蓋平面設計、攝影、插畫和影片剪輯等。Brilliant.org 以獨特的互動式數學和科學教學著稱，非常適合培養邏輯思維和問題解決能力。對於準備升學考試的學生，Magoosh 提供 GRE、GMAT、TOEFL 等國際考試的備考資源。</p>
+
+    <div class="highlight-box">
+      <p><strong>實用建議：</strong>選擇線上學習平台時，建議先利用免費試用期評估平台是否適合自己的學習風格。設定每天固定的學習時間（即使只有十五到三十分鐘），比不規律的長時間學習更有效。配合使用筆記工具（如 Notion 或 Obsidian）記錄學習重點，定期回顧以加深記憶。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     SECTION: STEM 教育
+════════════════════════════════════════════ -->
+<section id="stem">
+  <div class="container prose">
+    <div class="section-eyebrow">STEM Education</div>
+    <h2>STEM 教育與編程教學</h2>
+
+    <p>STEM 教育（科學、技術、工程和數學）已成為全球教育改革的核心議題，澳門也不例外。在數位經濟快速發展的背景下，掌握 STEM 知識和技能不僅是理工科學生的專利，更是所有年輕人適應未來社會的基本素養。澳門特區政府近年來積極推動 STEM 教育的普及和深化，從課程改革到設施建設，從教師培訓到國際交流，多管齊下地構建完善的 STEM 教育生態系統。</p>
+
+    <h3>澳門 STEM 教育的現況與發展</h3>
+    <p>澳門的 STEM 教育在過去五年取得了顯著進展。教育暨青年發展局推出了「STEM 教育推廣計劃」，資助學校購置機器人套件、3D 打印機、微控制器等科技教學設備。截至目前，超過半數的中學設有專門的科技創新實驗室或創客空間。澳門科學館作為 STEM 教育的重要推廣機構，定期舉辦面向不同年齡層的工作坊、科學展覽和暑期營，每年吸引超過三萬名學生參加。此外，多所學校組隊參加國際機器人大賽、科學奧林匹克和創新發明展，並屢獲佳績，展現了澳門學生在 STEM 領域的實力和潛力。</p>
+
+    <h3>編程教學：從「學會編程」到「用編程學習」</h3>
+    <p>編程已不僅僅是計算機專業的技能，更被視為一種新型「讀寫能力」。在澳門，編程教學正從課外興趣班逐步融入正規課程。小學階段以 Scratch 等圖形化編程工具為主，培養學生的邏輯思維和創造力；初中階段引入 Python 和網頁開發基礎，讓學生體驗真正的文字編程；高中階段則可以選修更深入的計算機科學課程，包括數據結構、算法設計和人工智能入門。重要的是，編程教學的目標不是讓每個學生都成為程序員，而是培養「計算思維」——學會將複雜問題分解為可執行的步驟，運用抽象化和模式識別等方法論來解決各領域的問題。</p>
+
+    <h3>推薦的 STEM 學習資源</h3>
+    <p>對於有志深入學習 STEM 的澳門學生，以下資源值得關注。Arduino 和 Raspberry Pi 官方網站提供大量適合初學者的電子和物聯網項目教程。MIT App Inventor 讓學生可以用圖形化界面開發 Android 應用程式。NASA 的 STEM Engagement 網站有豐富的太空科學教學資源。在本地資源方面，澳門大學的科技學院開放實驗室日和科普講座，澳門科技大學的太空科學實驗室提供天文觀測活動。家長可以鼓勵孩子參加各類 STEM 比賽和黑客松活動，在實踐中學習和成長。</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <span class="card-icon">💻</span>
+        <h4>編程入門</h4>
+        <p>Scratch（兒童）、Python（青少年）、JavaScript（網頁開發），從圖形化到文字編程的進階路線。</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🤖</span>
+        <h4>機器人與 IoT</h4>
+        <p>Arduino、Raspberry Pi、LEGO Mindstorms，動手做中學，培養工程思維和解決問題的能力。</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🧬</span>
+        <h4>科學實驗</h4>
+        <p>澳門科學館工作坊、學校實驗室開放日、線上虛擬實驗室，探索物理、化學和生物的奧秘。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     SECTION: 親子教育
+════════════════════════════════════════════ -->
+<section id="parenting" class="section-alt">
+  <div class="container prose">
+    <div class="section-eyebrow">Parenting Guide</div>
+    <h2>親子教育與家長指南</h2>
+
+    <p>在教育的道路上，家長扮演著不可替代的角色。良好的親子關係和科學的家庭教育方法，是孩子健康成長和學業成功的重要基石。特別是在 AI 時代，當知識的獲取變得前所未有地便利，家庭教育的重點正在從「傳授知識」轉向「培養品格、激發好奇心和建立良好的學習習慣」。以下是我們為澳門家長整理的教育指南，涵蓋不同年齡段的教育要點和實用建議。</p>
+
+    <h3>幼兒期（零至六歲）：奠定基礎</h3>
+    <p>這個階段是大腦發育的黃金期，家長的角色尤為關鍵。研究顯示，親子閱讀是促進語言發展最有效的方式之一，建議每天至少安排十五分鐘的共讀時間。選擇繪本時可以中英文並行，利用澳門的雙語環境優勢。遊戲是幼兒最重要的學習方式，積木、拼圖和角色扮演遊戲都能有效促進認知發展。避免過早使用電子螢幕，世界衛生組織建議兩歲以下幼兒避免任何形式的螢幕時間。在社交發展方面，鼓勵孩子與同齡人互動，學會分享、輪流和處理衝突。澳門的社區中心和公共圖書館定期舉辦親子活動和故事時間，是很好的免費資源。</p>
+
+    <h3>小學階段（六至十二歲）：培養習慣</h3>
+    <p>小學階段是培養學習習慣和自律能力的關鍵時期。家長應協助孩子建立固定的作息時間表，包括完成功課、課外閱讀和自由遊玩的時間。不要過度安排課外班和補習，給孩子留有探索興趣的空間。鼓勵孩子多元嘗試——音樂、運動、美術、科學實驗——在過程中發現自己的熱情所在。閱讀習慣的培養在這個階段至關重要，建議家中設置一個舒適的閱讀角，家長也要以身作則，營造「全家人都在學習」的氛圍。在處理成績和分數的問題上，關注孩子的學習過程和進步幅度，比單純看排名和分數更有意義。</p>
+
+    <h3>中學階段（十二至十八歲）：引導選擇</h3>
+    <p>中學是青少年形成自我認同和人生觀的重要時期，也是升學壓力最大的階段。家長的角色應從「管理者」轉變為「引導者」和「支持者」。尊重孩子的興趣和選擇，與他們平等對話，了解他們的壓力和困擾。在升學規劃方面，幫助孩子了解不同的升學途徑和職業方向，而不是把自己的期望強加給孩子。鼓勵孩子參加社會實踐和志願服務，培養社會責任感。數位素養教育在這個階段特別重要，教導孩子如何安全、負責任地使用網際網路和社群媒體，如何辨別虛假資訊，以及如何善用 AI 工具輔助學習而非依賴它完成作業。</p>
+
+    <h3>AI 時代的家庭教育策略</h3>
+    <p>面對 AI 技術的飛速發展，許多家長感到焦慮和迷茫。事實上，在 AI 時代，有四項核心能力是家庭教育應該著重培養的：第一是批判性思維，教導孩子不盲目接受資訊，學會提問、分析和評估；第二是創造力，鼓勵孩子勇於嘗試、不怕犯錯，因為創意是 AI 最難模仿的人類特質；第三是溝通與協作能力，在團隊合作和跨文化交流中建立自信；第四是情緒智商，學會理解和管理自己的情緒，培養同理心。與其擔心 AI 會取代孩子未來的工作，不如教會他們如何與 AI 共處，把 AI 當作工具來放大自身的能力。</p>
+
+    <div class="highlight-box">
+      <p><strong>家長小貼士：</strong>每週安排一次「無螢幕家庭時光」，全家人一起做飯、玩桌遊或到戶外散步。這不僅能增進親子感情，也讓孩子學會在沒有數位設備的情況下享受生活和與人互動。澳門的路環、黑沙海灘和龍爪角海岸步道都是很好的親子戶外活動場所。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     SECTION: FAQ
+════════════════════════════════════════════ -->
+<section id="faq">
+  <div class="container">
+    <div class="section-eyebrow">Frequently Asked Questions</div>
+    <h2>常見問題</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">澳門的教育制度是怎樣的？</div>
+      <div class="faq-a">澳門實行十五年免費教育制度，涵蓋三年幼稚園、六年小學及六年中學教育。學制分為本地制、英制和葡制三種。教育暨青年發展局（DSEDJ）負責監管整個教育體系，確保教育質素。澳門的教育制度重視雙語甚至三語教學，學生通常學習中文、英文和葡文。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">AI 如何改變澳門的教育模式？</div>
+      <div class="faq-a">AI 正深刻改變澳門教育的多個面向：智能評估系統能即時分析學生學習進度，自適應學習平台根據學生程度提供個人化內容，AI 輔助教學工具減輕教師行政負擔，虛擬助教提供二十四小時課業支援。澳門大學及澳門理工大學均已開設 AI 相關課程，培養下一代 AI 人才。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">澳門有哪些主要的大學和高等教育機構？</div>
+      <div class="faq-a">澳門主要高等教育機構包括：澳門大學（UM，橫琴新校區）、澳門理工大學（MPU）、澳門科技大學（MUST）、澳門城市大學（CityU）、聖若瑟大學（USJ）及澳門旅遊學院（IFTM）。其中澳門大學躋身世界四百強，澳門科技大學在太空科學和中醫藥領域享有國際聲譽。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">適合澳門學生的線上學習平台有哪些？</div>
+      <div class="faq-a">澳門學生常用的線上學習平台包括：Coursera 和 edX 提供全球頂尖大學課程；Khan Academy 提供免費數理科基礎教學；Duolingo 適合語言學習；Codecademy 和 freeCodeCamp 適合學習編程。此外，澳門教育暨青年發展局也提供本地化的線上學習資源和教材。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">STEM 教育在澳門的發展現況如何？</div>
+      <div class="faq-a">澳門近年大力推動 STEM 教育：政府撥款支持學校建設科學實驗室和創客空間；多所學校引入機器人編程課程；澳門科學館定期舉辦 STEM 工作坊和比賽；澳門大學設有智慧城市物聯網國家重點實驗室。自二零二四年起，編程思維被納入部分學校的常規課程中。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">家長如何為孩子選擇合適的學校？</div>
+      <div class="faq-a">選擇學校時應考慮以下因素：教學語言（中文、英文或葡文為主）、學制（本地制或國際制）、學校位置與交通便利性、課外活動與特色課程、師生比例、升學率及大學銜接方案。建議家長參加學校開放日、與在讀家長交流，並考慮孩子的性格和學習風格。教青局網站提供各校基本資料供查閱。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">澳門學生的升學途徑有哪些？</div>
+      <div class="faq-a">澳門學生升學途徑多元：可報考本地六所大學；透過「內地高校招收澳門保送生計劃」免試入讀內地一百多所大學；參加港澳台聯招考試報讀內地大學；以 DSE 成績申請香港大學；以 IB、A-Level 或 SAT 成績申請海外大學。澳門政府提供「大專學生學習用品津貼」及多項獎助學金支援升學。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">如何在 AI 時代培養孩子的核心競爭力？</div>
+      <div class="faq-a">在 AI 時代，家長應注重培養孩子四項核心能力：批判性思維（學會分析和評估資訊而非死記硬背）、創造力（AI 難以取代的創意和想像力）、溝通協作能力（團隊合作與跨文化交流）、數位素養（理解 AI 工具的原理和限制，善用而非依賴技術）。同時也要重視情商教育和身體鍛煉，培養全面發展的人才。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <address style="font-style:normal; font-size:13px; color:var(--text-3); margin-bottom:12px;">
+      <strong style="color:var(--text-2);">澳門教育資源中心</strong> — AI 時代的學習指南<br>
+      Macau SAR · 由 <a href="https://cloudpipe-landing.vercel.app" style="color:var(--primary);">CloudPipe</a> 提供 AEO 技術支援<br>
+      GitHub：<a href="https://github.com/Inari-Kira-Isla/aeo-demo-education" style="color:var(--text-2);">Inari-Kira-Isla/aeo-demo-education</a>
+    </address>
+    <p>&copy; 2026 澳門教育資源中心 &middot; CC BY 4.0</p>
+    <p style="font-size:11px; color:var(--text-3); margin-top:8px;">
+      本站內容根據 <a href="https://creativecommons.org/licenses/by/4.0/" style="color:var(--text-3);">Creative Commons Attribution 4.0</a> 授權使用。
+      <a href="/llms.txt" style="color:var(--text-3);">llms.txt</a> &middot;
+      <a href="/robots.txt" style="color:var(--text-3);">robots.txt</a> &middot;
+      <a href="/sitemap.xml" style="color:var(--text-3);">sitemap</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
