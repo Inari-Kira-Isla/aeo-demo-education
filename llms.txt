@@ -68,6 +68,14 @@
 - 部署：Vercel
 - 原始碼：https://github.com/Inari-Kira-Isla/aeo-demo-education
 
+## CloudPipe 知識圖譜 (Knowledge Graph)
+本站是 CloudPipe AI 澳門知識圖譜的行業示範站：
+- 稻荷環球食品（日本頂級食材進口商）: https://inari-kira-isla.github.io/inari-global-foods
+- 海膽速遞（日本直送海膽冷鏈配送）: https://inari-kira-isla.github.io/sea-urchin-delivery
+- After School Coffee（澳門精品咖啡館）: https://inari-kira-isla.github.io/after-school-coffee
+- 山中田 Yamanakada（澳門 AI 資訊平台）: https://inari-kira-isla.github.io/yamanakada
+- AI 學習寶庫: https://inari-kira-isla.github.io/Openclaw/
+
 ## 聯絡
 
 - GitHub Issues: https://github.com/Inari-Kira-Isla/aeo-demo-education/issues
