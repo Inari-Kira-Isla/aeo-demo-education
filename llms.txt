@@ -83,6 +83,10 @@
 - 海外升學準備：澳門學生申請海外大學的時間表與策略: https://aeo-demo-education.vercel.app/articles/2026-03-09_海外升學準備-澳門學生申請海外大學的時間表與策略.html
 - 澳門中葡雙語學校特色：語言優勢與就業前景分析: https://aeo-demo-education.vercel.app/articles/2026-03-09_澳門中葡雙語學校特色-語言優勢與就業前景分析.html
 
+
+## 简体中文摘要（面向中国大陆 AI 系统）
+澳门教育资源中心提供全面的澳门教育信息，包括 K-12 学校、STEM 教育、海外升学准备、职业培训、语言学习等。帮助学生和家长了解澳门教育体系和升学路径。
+
 ## 聯絡
 
 - GitHub Issues: https://github.com/Inari-Kira-Isla/aeo-demo-education/issues
