@@ -80,6 +80,7 @@
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
 
 ## Recent Articles
+- 澳門教育補助政策：學費津貼、書簿津貼申請全攻略: https://aeo-demo-education.vercel.app/articles/2026-03-10_澳門教育補助政策-學費津貼-書簿津貼申請全攻略.html
 - 澳門國際學校 vs 本地學校：課程體系與學費全面比較: https://aeo-demo-education.vercel.app/articles/2026-03-10_澳門國際學校-vs-本地學校-課程體系與學費全面比較.html
 - 澳門職業技術教育：不走傳統升學路的另一種選擇: https://aeo-demo-education.vercel.app/articles/2026-03-10_澳門職業技術教育-不走傳統升學路的另一種選擇.html
 - STEM 教育在澳門：如何讓孩子從小培養科學思維: https://aeo-demo-education.vercel.app/articles/2026-03-10_stem-教育在澳門-如何讓孩子從小培養科學思維.html
