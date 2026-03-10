@@ -234,4 +234,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://aeo-demo-education.vercel.app/articles/2026-03-11_ai-時代的家庭教育-家長如何引導孩子使用-ai-工具.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
