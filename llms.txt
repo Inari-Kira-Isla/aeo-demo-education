@@ -80,6 +80,7 @@
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
 
 ## Recent Articles
+- 澳門中葡雙語學校特色：語言優勢與就業前景分析: https://aeo-demo-education.vercel.app/articles/2026-03-13_澳門中葡雙語學校特色-語言優勢與就業前景分析-v84.html
 - 澳門中葡雙語學校特色：語言優勢與就業前景分析: https://aeo-demo-education.vercel.app/articles/2026-03-13_澳門中葡雙語學校特色-語言優勢與就業前景分析-v37.html
 - 數學思維訓練：讓孩子愛上數學的 5 種趣味方法: https://aeo-demo-education.vercel.app/articles/2026-03-13_數學思維訓練-讓孩子愛上數學的-5-種趣味方法-v62.html
 - 澳門教育補助政策：學費津貼、書簿津貼申請全攻略: https://aeo-demo-education.vercel.app/articles/2026-03-13_澳門教育補助政策-學費津貼-書簿津貼申請全攻略-v63.html
