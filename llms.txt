@@ -80,6 +80,7 @@
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
 
 ## Recent Articles
+- 考試壓力管理：幫助孩子應對測驗焦慮的實用方法: https://aeo-demo-education.vercel.app/articles/2026-03-16_考試壓力管理-幫助孩子應對測驗焦慮的實用方法-v14.html
 - 澳門幼兒園入學攻略：報名時間、面試準備與學校選擇: https://aeo-demo-education.vercel.app/articles/2026-03-16_澳門幼兒園入學攻略-報名時間-面試準備與學校選擇-v57.html
 - 澳門幼兒園入學攻略：報名時間、面試準備與學校選擇: https://aeo-demo-education.vercel.app/articles/2026-03-15_澳門幼兒園入學攻略-報名時間-面試準備與學校選擇-v32.html
 - AI 時代的家庭教育：家長如何引導孩子使用 AI 工具: https://aeo-demo-education.vercel.app/articles/2026-03-15_ai-時代的家庭教育-家長如何引導孩子使用-ai-工具-v28.html
