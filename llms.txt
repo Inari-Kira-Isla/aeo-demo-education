@@ -80,6 +80,7 @@
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
 
 ## Recent Articles
+- 澳門幼兒園入學攻略：報名時間、面試準備與學校選擇: https://aeo-demo-education.vercel.app/articles/2026-03-16_澳門幼兒園入學攻略-報名時間-面試準備與學校選擇-v10.html
 - 暑期學習計劃：如何善用假期提升孩子的綜合能力: https://aeo-demo-education.vercel.app/articles/2026-03-16_暑期學習計劃-如何善用假期提升孩子的綜合能力-v51.html
 - 親子閱讀習慣培養：從 0 歲到 12 歲的分齡書單推薦: https://aeo-demo-education.vercel.app/articles/2026-03-16_親子閱讀習慣培養-從-0-歲到-12-歲的分齡書單推薦-v52.html
 - 家長如何與老師有效溝通：建立良好家校關係的技巧: https://aeo-demo-education.vercel.app/articles/2026-03-16_家長如何與老師有效溝通-建立良好家校關係的技巧-v14.html
