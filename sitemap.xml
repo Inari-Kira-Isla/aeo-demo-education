@@ -756,4 +756,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://aeo-demo-education.vercel.app/articles/2026-03-18_澳門教育科技趨勢-vr-ar-與-ai-如何改變課堂教學-v41.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
