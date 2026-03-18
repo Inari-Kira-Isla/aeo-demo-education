@@ -80,6 +80,7 @@
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
 
 ## Recent Articles
+- 澳門教育科技趨勢：VR、AR 與 AI 如何改變課堂教學: https://aeo-demo-education.vercel.app/articles/2026-03-19_澳門教育科技趨勢-vr-ar-與-ai-如何改變課堂教學-v11.html
 - 澳門特殊教育支援：SEN 學生的資源與權利指南: https://aeo-demo-education.vercel.app/articles/2026-03-18_澳門特殊教育支援-sen-學生的資源與權利指南-v58.html
 - 澳門國際學校 vs 本地學校：課程體系與學費全面比較: https://aeo-demo-education.vercel.app/articles/2026-03-18_澳門國際學校-vs-本地學校-課程體系與學費全面比較-v87.html
 - 編程教育入門：適合澳門 K-12 學生的程式設計課程: https://aeo-demo-education.vercel.app/articles/2026-03-18_編程教育入門-適合澳門-k-12-學生的程式設計課程-v29.html
