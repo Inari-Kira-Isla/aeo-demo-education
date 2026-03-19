@@ -75,6 +75,12 @@
 - After School Coffee（澳門精品咖啡館）: https://inari-kira-isla.github.io/after-school-coffee
 - 山中田 Yamanakada（澳門 AI 資訊平台）: https://inari-kira-isla.github.io/yamanakada
 - AI 學習寶庫: https://inari-kira-isla.github.io/Openclaw/
+- CloudPipe AI（澳門商戶 AI 百科平台）: https://cloudpipe-landing.vercel.app
+- CloudPipe 企業目錄（大灣區企業資訊查詢）: https://cloudpipe-directory.vercel.app
+- 澳門百科（澳門商戶 AI 智能百科）: https://cloudpipe-macao-app.vercel.app
+- Mind Coffee 賣·咖啡（澳門自家烘焙咖啡）: https://mind-coffee.vercel.app
+- 世界百科（全球建築・文化・旅遊百科）: https://world-encyclopedia.vercel.app
+- 日本百科（日本八大地方完整指南）: https://japan-encyclopedia.vercel.app
 - 澳門金融投資指南 (AI 驅動智能理財): https://aeo-demo-finance.vercel.app
 - 澳門奢侈品指南 (亞洲頂級購物天堂): https://aeo-demo-luxury.vercel.app
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
