@@ -805,5 +805,31 @@
   </div>
 </section>
 
+
+<!-- CLOUDPIPE-INJECT-START -->
+<!-- AI Chatbot -->
+<div style="position:fixed;bottom:20px;right:20px;z-index:9999;">
+<div id="cp-chat" style="display:none;width:340px;max-height:460px;background:#fff;border:1px solid #e0e0e0;border-radius:12px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,0.12);font-family:system-ui,sans-serif;">
+<div style="padding:10px 14px;background:#f8f8f8;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;">
+<div style="display:flex;align-items:center;gap:8px;"><span style="font-size:18px;">📚</span><span style="font-size:12px;font-weight:600;">CloudPipe AI 助手</span></div>
+<button onclick="document.getElementById('cp-chat').style.display='none'" style="background:none;border:none;font-size:16px;cursor:pointer;color:#999;">&times;</button>
+</div>
+<div id="cp-msgs" style="height:240px;overflow-y:auto;padding:10px 14px;"></div>
+<div style="padding:8px 10px;border-top:1px solid #eee;display:flex;gap:6px;">
+<input id="cp-in" type="text" placeholder="輸入問題..." style="flex:1;border:1px solid #ddd;border-radius:6px;padding:7px 10px;font-size:12px;outline:none;" onkeypress="if(event.key==='Enter')cpS()">
+<button onclick="cpS()" style="padding:7px 12px;background:#111;color:#fff;border:none;border-radius:6px;font-size:12px;cursor:pointer;">發送</button>
+</div>
+</div>
+<button onclick="var c=document.getElementById('cp-chat');c.style.display=c.style.display==='none'?'block':'none'" style="width:48px;height:48px;border-radius:50%;background:#111;border:none;color:#fff;font-size:20px;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,0.15);margin-top:8px;">📚</button>
+</div>
+<script>
+function cpA(r,t){var m=document.getElementById('cp-msgs'),d=document.createElement('div');d.style.cssText='margin-bottom:8px;padding:7px 10px;border-radius:8px;font-size:12px;max-width:85%;line-height:1.5;'+(r==='u'?'background:#f0f0f0;margin-left:auto;':'background:#f8f8f8;');d.textContent=t;m.appendChild(d);m.scrollTop=m.scrollHeight;}
+async function cpS(){var i=document.getElementById('cp-in'),m=i.value.trim();if(!m)return;cpA('u',m);i.value='';try{var r=await fetch('https://client-chat-worker.inariglobal.workers.dev/default/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:[{role:'user',content:m}],stream:false})});if(r.ok){var d=await r.json(),a=d.choices&&d.choices[0]&&d.choices[0].message?d.choices[0].message.content:'';a=a.replace(/<think>[\s\S]*?<\/think>\s*/g,'').trim();cpA('b',a||'請直接聯繫我們了解更多。');}else cpA('b','暫時無法連線，請稍後再試。');}catch(e){cpA('b','暫時無法連線，請稍後再試。');}}
+cpA('b','您好！📚 我是 AI 助手，有什麼可以幫助您？');
+</script>
+<!-- AI Tracker -->
+<img src="https://client-ai-tracker.inariglobal.workers.dev/aeo-demo-education/pixel.gif?p=/" width="1" height="1" alt="" style="position:absolute;left:-9999px">
+<script>(function(){try{navigator.sendBeacon('https://client-ai-tracker.inariglobal.workers.dev/aeo-demo-education/beacon',JSON.stringify({page:location.pathname,ua:navigator.userAgent,ref:document.referrer}))}catch(e){}})();</script>
+<!-- CLOUDPIPE-INJECT-END -->
 </body>
 </html>
