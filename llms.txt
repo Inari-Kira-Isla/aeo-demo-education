@@ -86,6 +86,7 @@
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
 
 ## Recent Articles
+- 澳門教育科技趨勢：VR、AR 與 AI 如何改變課堂教學: https://aeo-demo-education.vercel.app/articles/2026-03-22_澳門教育科技趨勢-vr-ar-與-ai-如何改變課堂教學-v6.html
 - 澳門大學申請完全指南：入學要求、獎學金與宿舍資訊: https://aeo-demo-education.vercel.app/articles/2026-03-22_澳門大學申請完全指南-入學要求-獎學金與宿舍資訊-v63.html
 - 澳門職業技術教育：不走傳統升學路的另一種選擇: https://aeo-demo-education.vercel.app/articles/2026-03-22_澳門職業技術教育-不走傳統升學路的另一種選擇-v83.html
 - AI 時代的家庭教育：家長如何引導孩子使用 AI 工具: https://aeo-demo-education.vercel.app/articles/2026-03-22_ai-時代的家庭教育-家長如何引導孩子使用-ai-工具-v97.html
