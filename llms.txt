@@ -86,6 +86,7 @@
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
 
 ## Recent Articles
+- 家長如何與老師有效溝通：建立良好家校關係的技巧: https://aeo-demo-education.vercel.app/articles/2026-03-24_家長如何與老師有效溝通-建立良好家校關係的技巧-v92.html
 - 海外升學準備：澳門學生申請海外大學的時間表與策略: https://aeo-demo-education.vercel.app/articles/2026-03-24_海外升學準備-澳門學生申請海外大學的時間表與策略-v76.html
 - 雙語教育的優勢：澳門三文四語環境下的語言培養策略: https://aeo-demo-education.vercel.app/articles/2026-03-24_雙語教育的優勢-澳門三文四語環境下的語言培養策略-v53.html
 - 編程教育入門：適合澳門 K-12 學生的程式設計課程: https://aeo-demo-education.vercel.app/articles/2026-03-24_編程教育入門-適合澳門-k-12-學生的程式設計課程-v85.html
