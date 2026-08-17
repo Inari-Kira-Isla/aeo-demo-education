@@ -1194,4 +1194,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://aeo-demo-education.vercel.app/articles/2026-08-18_編程教育入門-適合澳門-k-12-學生的程式設計課程-v67.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
