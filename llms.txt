@@ -86,6 +86,7 @@
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
 
 ## Recent Articles
+- STEM 教育在澳門：如何讓孩子從小培養科學思維: https://aeo-demo-education.vercel.app/articles/2026-08-23_stem-教育在澳門-如何讓孩子從小培養科學思維-v82.html
 - 澳門國際學校 vs 本地學校：課程體系與學費全面比較: https://aeo-demo-education.vercel.app/articles/2026-08-23_澳門國際學校-vs-本地學校-課程體系與學費全面比較-v63.html
 - STEM 教育在澳門：如何讓孩子從小培養科學思維: https://aeo-demo-education.vercel.app/articles/2026-08-22_stem-教育在澳門-如何讓孩子從小培養科學思維-v80.html
 - 澳門教育科技趨勢：VR、AR 與 AI 如何改變課堂教學: https://aeo-demo-education.vercel.app/articles/2026-08-22_澳門教育科技趨勢-vr-ar-與-ai-如何改變課堂教學-v58.html
