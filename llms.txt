@@ -86,6 +86,7 @@
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
 
 ## Recent Articles
+- 親子閱讀習慣培養：從 0 歲到 12 歲的分齡書單推薦: https://aeo-demo-education.vercel.app/articles/2026-09-03_親子閱讀習慣培養-從-0-歲到-12-歲的分齡書單推薦-v50.html
 - 數學思維訓練：讓孩子愛上數學的 5 種趣味方法: https://aeo-demo-education.vercel.app/articles/2026-09-02_數學思維訓練-讓孩子愛上數學的-5-種趣味方法-v21.html
 - 數學思維訓練：讓孩子愛上數學的 5 種趣味方法: https://aeo-demo-education.vercel.app/articles/2026-09-02_數學思維訓練-讓孩子愛上數學的-5-種趣味方法-v24.html
 - 澳門幼兒園入學攻略：報名時間、面試準備與學校選擇: https://aeo-demo-education.vercel.app/articles/2026-09-02_澳門幼兒園入學攻略-報名時間-面試準備與學校選擇-v8.html
