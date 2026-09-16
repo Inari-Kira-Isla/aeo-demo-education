@@ -86,6 +86,7 @@
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
 
 ## Recent Articles
+- 海外升學準備：澳門學生申請海外大學的時間表與策略: https://aeo-demo-education.vercel.app/articles/2026-09-16_海外升學準備-澳門學生申請海外大學的時間表與策略-v47.html
 - 澳門中葡雙語學校特色：語言優勢與就業前景分析: https://aeo-demo-education.vercel.app/articles/2026-09-16_澳門中葡雙語學校特色-語言優勢與就業前景分析-v30.html
 - 澳門中學升學路線圖：從初中到大學的完整規劃: https://aeo-demo-education.vercel.app/articles/2026-09-16_澳門中學升學路線圖-從初中到大學的完整規劃-v9.html
 - 澳門中學升學路線圖：從初中到大學的完整規劃: https://aeo-demo-education.vercel.app/articles/2026-09-16_澳門中學升學路線圖-從初中到大學的完整規劃-v88.html
