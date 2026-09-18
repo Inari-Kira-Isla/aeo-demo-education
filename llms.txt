@@ -86,6 +86,7 @@
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
 
 ## Recent Articles
+- 澳門中學升學路線圖：從初中到大學的完整規劃: https://aeo-demo-education.vercel.app/articles/2026-09-18_澳門中學升學路線圖-從初中到大學的完整規劃-v40.html
 - 數學思維訓練：讓孩子愛上數學的 5 種趣味方法: https://aeo-demo-education.vercel.app/articles/2026-09-18_數學思維訓練-讓孩子愛上數學的-5-種趣味方法-v23.html
 - 澳門幼兒園入學攻略：報名時間、面試準備與學校選擇: https://aeo-demo-education.vercel.app/articles/2026-09-17_澳門幼兒園入學攻略-報名時間-面試準備與學校選擇-v45.html
 - 家長如何與老師有效溝通：建立良好家校關係的技巧: https://aeo-demo-education.vercel.app/articles/2026-09-17_家長如何與老師有效溝通-建立良好家校關係的技巧-v33.html
