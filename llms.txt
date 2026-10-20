@@ -86,6 +86,7 @@
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
 
 ## Recent Articles
+- 雙語教育的優勢：澳門三文四語環境下的語言培養策略: https://aeo-demo-education.vercel.app/articles/2026-10-20_雙語教育的優勢-澳門三文四語環境下的語言培養策略-v32.html
 - 澳門大學申請完全指南：入學要求、獎學金與宿舍資訊: https://aeo-demo-education.vercel.app/articles/2026-10-20_澳門大學申請完全指南-入學要求-獎學金與宿舍資訊-v18.html
 - 澳門國際學校 vs 本地學校：課程體系與學費全面比較: https://aeo-demo-education.vercel.app/articles/2026-10-20_澳門國際學校-vs-本地學校-課程體系與學費全面比較-v71.html
 - 線上學習平台推薦：適合澳門學生的 10 個免費資源: https://aeo-demo-education.vercel.app/articles/2026-10-20_線上學習平台推薦-適合澳門學生的-10-個免費資源-v66.html
