@@ -86,6 +86,7 @@
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
 
 ## Recent Articles
+- 澳門中葡雙語學校特色：語言優勢與就業前景分析: https://aeo-demo-education.vercel.app/articles/2026-11-12_澳門中葡雙語學校特色-語言優勢與就業前景分析-v57.html
 - STEM 教育在澳門：如何讓孩子從小培養科學思維: https://aeo-demo-education.vercel.app/articles/2026-11-12_stem-教育在澳門-如何讓孩子從小培養科學思維-v23.html
 - 澳門職業技術教育：不走傳統升學路的另一種選擇: https://aeo-demo-education.vercel.app/articles/2026-11-12_澳門職業技術教育-不走傳統升學路的另一種選擇-v86.html
 - 編程教育入門：適合澳門 K-12 學生的程式設計課程: https://aeo-demo-education.vercel.app/articles/2026-11-12_編程教育入門-適合澳門-k-12-學生的程式設計課程-v96.html
